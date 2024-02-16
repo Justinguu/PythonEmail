@@ -9,9 +9,9 @@ email_password = os.environ.get("EMAIL_PASSWORD")  # Retrieve email password fro
 email_receiver = 'The email of the receiver'  # Replace 'The email of the receiver' with the recipient's email address
 
 # Set the subject and body of the email
-subject = 'Check out my new video!'  # Define the subject of the email
+subject = 'this is the subject'  # Define the subject of the email
 body = """
-I've just published a new video on YouTube: https://youtu.be/2cZzP9DLlkg
+This is the body of the email
 """  # Define the body of the email
 
 em = EmailMessage()  # Create an instance of EmailMessage
