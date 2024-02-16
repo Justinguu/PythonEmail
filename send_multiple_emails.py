@@ -11,8 +11,8 @@ email_sender = 'Your email'  # Replace 'Your email' with the sender's email addr
 email_password = os.environ.get("EMAIL_PASSWORD")  # Retrieve email password from environment variables
 
 # Set the subject and body of the email
-subject = 'Check out my new video!'  # Define the subject of the email
-body = "I've just published a new video on YouTube: https://youtu.be/2cZzP9DLlkg"  # Define the body of the email
+subject = 'This is the subject'  # Define the subject of the email
+body = "This is the body of the email"  # Define the body of the email
 
 # Reading the CSV file
 csv_path = 'multiple_emails.csv'  # Path to the CSV file containing email addresses and attachment filenames
